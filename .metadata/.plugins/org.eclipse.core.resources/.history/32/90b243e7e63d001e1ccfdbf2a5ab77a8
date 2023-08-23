@@ -1,0 +1,46 @@
+package Controladores;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.time.LocalDate;
+import java.util.List;
+
+import DAO.HuespedesDAO;
+import Factory.ConexionBase;
+import modelo.Huespedes;
+
+public class HuespedesControlador {
+	
+	private HuespedesDAO huespedesDAO;
+	
+	
+	public HuespedesControlador() {
+		Connection con = new ConexionBase().conectarBase();
+		this.huespedesDAO = new HuespedesDAO(con);
+	}
+	
+	public void guardar(Huespedes huespedes) {
+		this.huespedesDAO.guardar(huespedes);
+	}
+	
+	public  List<Huespedes> mostrarHuesped(){
+		return this.huespedesDAO.mostrar();
+	}
+	
+	public  List<Huespedes> buscarHuesped(String id){
+		return this.huespedesDAO.buscarId(id);
+	}
+	
+	public void actualizarH(String nombre, String apellido, LocalDate fechaNacimiento, String nacionalidad, String telefono,Integer id_reserva, Integer id) {
+		this.huespedesDAO.ActualizarH(nombre, apellido, fechaNacimiento, nacionalidad, telefono, id_reserva, id);
+	}
+	 
+	public void Eliminar(Integer idReserva) {
+		this.huespedesDAO.Eliminar(idReserva);
+	}
+
+	
+		
+	}
+	
+

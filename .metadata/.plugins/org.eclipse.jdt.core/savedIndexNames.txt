@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\Adrian\Desktop\HotelAluraApp\.metadata\.plugins\org.eclipse.jdt.core
+2781861414.index
+3413725848.index
+1614177878.index
+1865797976.index
+3517067776.index
+1081514123.index
+1905906606.index

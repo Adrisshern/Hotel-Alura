@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Controladores.ReservaControlador"><rhs name\="Controladores.ReservaControlador"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.chrono.ChronoLocalDate"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="javax.swing.JDialog"><rhs name\="views.Exito"/></lhs><lhs name\="javax.swing.WindowConstants"><rhs name\="views.Exito"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="views.Exito"/></lhs><lhs name\="javax.swing.RootPaneContainer"><rhs name\="views.Exito"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.Dialog"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.Window"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.Container"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.Component"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="views.Exito"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="views.Exito"/></lhs><lhs name\="views.Exito"><rhs name\="views.Exito"/></lhs><lhs name\="Controladores.HuespedesControlador"><rhs name\="Controladores.HuespedesControlador"/></lhs></history>
+content_assist_number_of_computers=17
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

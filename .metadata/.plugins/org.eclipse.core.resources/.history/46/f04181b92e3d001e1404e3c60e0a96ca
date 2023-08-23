@@ -1,0 +1,40 @@
+package Controladores;
+
+
+import java.sql.Connection;
+import java.time.LocalDate;
+import java.util.List;
+
+import DAO.ReservaDAO;
+import Factory.ConexionBase;
+import modelo.Reserva;
+
+public class ReservaControlador {
+	
+	private ReservaDAO reservasD;
+	
+	public ReservaControlador() {
+		Connection con = new ConexionBase().conectarBase();
+		this.reservasD = new ReservaDAO(con);	
+	}
+	
+	public void guardar (Reserva reserva) {
+		this.reservasD.guardar(reserva);
+	}
+	
+	public List<Reserva> buscar(){
+		return this.reservasD.buscar();
+	}
+	public List<Reserva> buscarId(String id){
+		return this.reservasD.buscarId(id);
+	}
+		
+	public void actulizarReserva(LocalDate dataE, LocalDate dataS, String valor, String formaPago, Integer id) {
+		this.reservasD.Actualizar(dataE, dataS, valor,formaPago, id);
+	}
+	
+	public void Eliminar(Integer id) {
+		this.reservasD.Eliminar(id);
+	}
+
+}
